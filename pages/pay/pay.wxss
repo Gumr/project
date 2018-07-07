@@ -1,0 +1,39 @@
+/* pages/pay/pay.wxss */
+
+.content {
+  text-align: center;
+  font-family: PingFangSC-Regular;
+}
+.img_box1{
+  margin: 140rpx auto 30rpx;
+}
+.img_box1 .img{
+  width: 121rpx;
+  height: 121rpx;
+}
+.img_box2 .img{
+  width: 362rpx;
+  height: 81rpx;
+}
+.pay_success{
+  margin-bottom: 140rpx;
+  font-size: 36rpx;
+  color: #333333;
+}
+.check{
+  margin-bottom: 130rpx;
+  font-size: 30rpx;
+  color: #333333;
+}
+.check .my{
+  display: inline-block;
+  font-weight: bold;
+  text-decoration:underline;
+}
+.fail .pay_success text{
+  display: block;
+  font-weight: bold;
+}
+.fail .pay_success{
+  margin-bottom: 88rpx;
+}

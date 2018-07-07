@@ -1,0 +1,23 @@
+<view class='content'>
+  <view class='success' wx:if="{{pay_success==1}}">
+    <view class='img_box1'>
+      <image src='../../images/1.png' class='img'></image>
+    </view>
+    <view class='pay_success'>恭喜支付成功！</view>
+    <view class='check'>您可以进入<text class='my' bindtap="toOrder">我的订单</text>查看订单进度</view>
+    <view class='img_box2' bindtap="toHome">
+      <image src='../../images/3.png' class='img'></image>
+    </view>
+  </view>
+
+  <view class='fail' wx:if="{{pay_success==0}}">
+    <view class='img_box1'>
+      <image src='../../images/2.png' class='img'></image>
+    </view>
+    <view class='pay_success'>因为某些原因您的订单<text>支付失败！</text></view>
+    <view class='check'>您可以进入<text class='my' bindtap="toOrder">我的订单</text>重新支付</view>
+    <view class='img_box2' bindtap="toHome">
+      <image src='../../images/3.png' class='img'></image>
+    </view>
+  </view>
+</view>
